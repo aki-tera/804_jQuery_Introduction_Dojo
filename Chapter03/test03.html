@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>jQueryのテスト</title>
+    <style>
+      #outside{
+        width: 1000px;
+        color: #ff0000;
+      }
+      #inside{
+        width: 2000%;
+        color: #008000;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" charset="utf-8"></script>
+    <script>
+      jQuery(function($){
+        let ret1 = $("#outside").width()
+        var ret2 = $("#inside").width()
+        var ret3 = $("#alone").width()
+
+        console.log(ret1);
+        console.log(ret2);
+        console.log(ret3);
+        });
+
+    </script>
+  </head>
+  <body>
+    <div id="outside">
+      test
+      <div id="inside">
+        test
+      </div>
+    </div>
+    <div id="alone">
+      test
+    </div>
+  </body>
+</html>

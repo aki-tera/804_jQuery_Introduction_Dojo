@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>jQueryのテスト</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" charset="utf-8"></script>
+    <script>
+      jQuery(function($){
+        $("#zansho").css("background-color", "pink").css("padding-left", "+=100");
+        $("#night").css({
+          "background-color": "yellow",
+          "font-weight"     : "bold",
+          color             : "blue"
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="zansho">残暑が厳しいざんしょ</div>
+    <div id="night">今宵も暑い夏の夜</div>
+  </body>
+</html>
