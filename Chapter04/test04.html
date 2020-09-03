@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>jQueryのテスト</title>
+  <style>
+    #outside {
+      font-size: 10px;
+    }
+
+    #inside {
+      font-size: 2em;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" charset="utf-8"></script>
+  <script>
+    jQuery(function ($) {
+      //開始行
+      $("ul").prepend($("<li>太郎</li>"));
+      $("ul").append($("<li>花子</li>"));
+      $("ul").before($("<p>子供の名前</p>"));
+      $("ul").after($("<p>生年月日</p>"));
+      //終了行
+    });
+  </script>
+</head>
+
+<body>
+  <ul>
+    <li>次郎</li>
+    <li>三郎</li>
+  </ul>
+</body>
+
+</html>
