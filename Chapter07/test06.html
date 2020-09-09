@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>jQueryのテスト</title>
+  <style>
+    #outside {
+      font-size: 10px;
+    }
+
+    #inside {
+      font-size: 2em;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" charset="utf-8"></script>
+  <script>
+    jQuery(function ($) {
+      //開始行
+      function greet(event){
+        alert(event.data.name + "です。" + event.data.birth + "出身です。");
+      }
+      $("#taro").on("click", {name: "太郎", birth: "東京"}, greet);
+      $("#jiro").on("click", {name: "次郎", birth: "埼玉"}, greet);
+      //終了行
+    });
+  </script>
+</head>
+
+<body>
+  <form>
+    <input type="button" id="taro" value="TARO">
+    <input type="button" id="jiro" value="JIRO">
+  </form>
+</body>
+
+</html>
