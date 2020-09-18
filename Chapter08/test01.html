@@ -29,7 +29,7 @@
       });
       $("#sample2").on("click", function () {
         $.ajax({
-          url: "sample2.json",
+          url: "sample1.json",
           type: "GET",
           dataType: "json",
           success: function (data) {
@@ -39,12 +39,13 @@
       });
       $("#sample3").on("click", function(){
         $.ajax({
-          url:"sample3.py",
+          url:"cgi-bin/sample1.py",
           type:"post",
           dataType:"json",
           data:{
             "myname":"yamada",
-            "mypass":"abcde"
+            "mypass":"abcde",
+            "myclss":"level2"
           },
           success:function(data){
             if(data.result==="OK"){

@@ -1,0 +1,9 @@
+2020-09-18 09:11:27.244942:START
+2020-09-18 09:11:27.244942:METHOD=POST
+2020-09-18 09:11:27.244942:DATAæ“¾
+myname:yamada
+mypass:abcde
+myclss:level2
+2020-09-18 09:11:27.244942:‘—M
+{"result": "OK", "message": "python is good!!"}
+2020-09-18 09:11:27.244942:END
