@@ -1,9 +1,10 @@
-2020-09-18 09:11:27.244942:START
-2020-09-18 09:11:27.244942:METHOD=POST
-2020-09-18 09:11:27.244942:DATAéÊìæ
-myname:yamada
-mypass:abcde
-myclss:level2
-2020-09-18 09:11:27.244942:ëóêM
-{"result": "OK", "message": "python is good!!"}
-2020-09-18 09:11:27.244942:END
+2020-09-24 08:49:29.903643:START
+2020-09-24 08:49:29.903643:METHODïsê≥
+2020-09-24 08:49:29.904642:DATAéÊìæ
+FieldStorage(None, None, [MiniFieldStorage('name[firstName]', 'Taro02'), MiniFieldStorage('name[LastName]', 'Yamada'), MiniFieldStorage('age', '35')])
+name[LastName]:Yamada
+name[firstName]:Taro02
+age:35
+2020-09-24 08:49:29.904642:ëóêM
+{"result": "OK", "message": "python is very good!!", "name[LastName]": "Yamada", "name[firstName]": "Taro02", "age": "35"}
+2020-09-24 08:49:29.904642:END

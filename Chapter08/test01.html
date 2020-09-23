@@ -37,20 +37,20 @@
           }
         });
       });
-      $("#sample3").on("click", function(){
+      $("#sample3").on("click", function () {
         $.ajax({
-          url:"cgi-bin/sample1.py",
-          type:"post",
-          dataType:"json",
-          data:{
-            "myname":"yamada",
-            "mypass":"abcde",
-            "myclss":"level2"
+          url: "cgi-bin/sample1.py",
+          type: "post",
+          dataType: "json",
+          data: {
+            "myname": "yamada",
+            "mypass": "abcde",
+            "myclss": "level2"
           },
-          success:function(data){
-            if(data.result==="OK"){
+          success: function (data) {
+            if (data.result === "OK") {
               console.log(data.message);
-            }else{
+            } else {
               console.log("ログイン失敗");
             }
           }
