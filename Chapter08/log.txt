@@ -1,10 +1,10 @@
-2020-09-24 08:49:29.903643:START
-2020-09-24 08:49:29.903643:METHOD•s³
-2020-09-24 08:49:29.904642:DATAæ“¾
+ï»¿2020-09-24 08:49:29.903643:START
+2020-09-24 08:49:29.903643:METHODä¸æ­£
+2020-09-24 08:49:29.904642:DATAå–å¾—
 FieldStorage(None, None, [MiniFieldStorage('name[firstName]', 'Taro02'), MiniFieldStorage('name[LastName]', 'Yamada'), MiniFieldStorage('age', '35')])
 name[LastName]:Yamada
 name[firstName]:Taro02
 age:35
-2020-09-24 08:49:29.904642:‘—M
+2020-09-24 08:49:29.904642:é€ä¿¡
 {"result": "OK", "message": "python is very good!!", "name[LastName]": "Yamada", "name[firstName]": "Taro02", "age": "35"}
 2020-09-24 08:49:29.904642:END

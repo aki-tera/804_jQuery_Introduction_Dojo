@@ -14,7 +14,7 @@ def main01():
     print('Content-type: application/json; charset=UTF-8')
     print("\r\n\r\n")
 
-    with open("log.txt", mode="w") as f:
+    with open("log.txt", , encoding="utf-8", mode="w") as f:
         f.write(str(datetime.datetime.now())+":START\n")
 
         # POSTデータの判定
