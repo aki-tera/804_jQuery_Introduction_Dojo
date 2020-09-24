@@ -1,10 +1,10 @@
-﻿2020-09-24 08:49:29.903643:START
-2020-09-24 08:49:29.903643:METHOD不正
-2020-09-24 08:49:29.904642:DATA取得
+2020-09-24 09:00:38.412892:START
+2020-09-24 09:00:38.412892:METHOD=POST
+2020-09-24 09:00:38.413895:DATA取得
 FieldStorage(None, None, [MiniFieldStorage('name[firstName]', 'Taro02'), MiniFieldStorage('name[LastName]', 'Yamada'), MiniFieldStorage('age', '35')])
-name[LastName]:Yamada
 name[firstName]:Taro02
 age:35
-2020-09-24 08:49:29.904642:送信
-{"result": "OK", "message": "python is very good!!", "name[LastName]": "Yamada", "name[firstName]": "Taro02", "age": "35"}
-2020-09-24 08:49:29.904642:END
+name[LastName]:Yamada
+2020-09-24 09:00:38.413895:送信
+{"result": "OK", "message": "python is very good!!", "name[firstName]": "Taro02", "age": "35", "name[LastName]": "Yamada"}
+2020-09-24 09:00:38.413895:END

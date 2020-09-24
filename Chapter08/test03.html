@@ -29,7 +29,7 @@
 
       $.ajax({
         url: "cgi-bin/sample3.py",
-        type: "post",
+        type: "POST",
         data: mydata,
         success: function (data) {
           if (data.result === "OK") {
