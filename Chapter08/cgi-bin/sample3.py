@@ -44,12 +44,8 @@ def main01():
 
         f.write(str(json_data)+"\n")
 
-        # 今回のpythonサーバの場合は不要
-        # print("Content-type: application/json")
-        # print("\n\n")
-
         print(json_data)
-        # print('\n')
+        print("\r\n")
 
         f.write(str(datetime.datetime.now())+":END\n")
 
@@ -81,7 +77,7 @@ def main():
 
 if __name__ == "__main__":
 
-    main01()
+    main()
 
     # main()にログ出力する機能付き
     # main01()
