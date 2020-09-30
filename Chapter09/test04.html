@@ -8,11 +8,11 @@
   <script>
     jQuery(function ($) {
       //開始行
-      $("#btn_show").on("click", function () {
-        $("#box1").show();
-      });
-      $("#btn_hide").on("click", function () {
-        $("#box1").hide();
+      $("#btn_start").on("click", function () {
+        $("#box1").css("background-color", "pink");
+        $("#box1").animate({ opacity: 0.5 }, 1000);
+        $("#box1").animate({ width: "+=100px" }, 1000);
+        $("#box1").css("background-color", "green");
       });
       //終了行
     });
@@ -23,8 +23,7 @@
   <div id="box1" style="width: 100px; height: 100px; background-color: orange;"></div>
 
   <form>
-    <input type="button" id="btn_show" value=".show()">
-    <input type="button" id="btn_hide" value=".hide()">
+    <input type="button" id="btn_start" value="スタート">
   </form>
 </body>
 
